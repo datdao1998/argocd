@@ -1,0 +1,9 @@
+version: "2"
+
+authtoken: <my-ngrok-auth-token>
+
+tunnels:
+  argocd:
+    proto: http
+    addr: 8080
+    inspect: false
