@@ -7,7 +7,7 @@ spec:
   goTemplate: true
   generators:
   - git:
-      repoURL: https://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@github.com/datdao1998/argocd.git
+      repoURL: https://github.com/datdao1998/argocd.git
       revision: main
       directories:
       - path: applications/*
@@ -17,7 +17,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://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@github.com/datdao1998/argocd.git
+        repoURL: https://github.com/datdao1998/argocd.git
         targetRevision: main
         path: '{{.path}}'
       destination:
